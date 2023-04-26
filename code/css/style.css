@@ -1,0 +1,28 @@
+img{
+    border-radius: 9px;
+}
+ul{
+    list-style-type: none;
+    overflow:auto;
+    background-color: darkgrey;
+}
+ ul li a{
+    color:white;
+    padding: 10px;
+    float: left;
+    font-size:30 px;
+    width:16%;
+    font-family: 'Times New Roman', Times, serif;
+}
+ ul li a:hover{
+    background-color:cornflowerblue;
+}
+ul li.active a{
+    background-color:cornsilk;
+    color:white;
+}
+div{
+    background-image: url(https://i.ibb.co/nzjq38x/Sona-restaurant.jpg);
+    background-size: cover;
+    color: white;
+}
